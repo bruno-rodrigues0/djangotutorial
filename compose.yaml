@@ -1,0 +1,7 @@
+services:
+  web:
+    build: djangotutorial
+    container_name: polls
+    ports:
+      - '5000:8000'
+
